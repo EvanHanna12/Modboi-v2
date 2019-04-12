@@ -5,7 +5,7 @@ const discord = require('discord.js')
 module.exports.run = (bot, message, args) => {
   const msg = args.join(" ");
   
-  message.channel.send("I sent a bug report to FHGDev.");
+  message.channel.send("I sent a bug report to Evan.");
   
   api.createPaste(msg, `[Modboi] Bug report from ${message.author.username}`).then(d => {
      const embed = new discord.RichEmbed()
