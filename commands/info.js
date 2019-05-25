@@ -3,7 +3,7 @@ const discord = require('discord.js')
 module.exports.run = (bot, message, args) => {
   const em = new discord.RichEmbed()
   .setTitle("Modboi v2 Info")
-  .setDescription(` Hi! I'm Modboi v2! I was created by Evan because of a critical, unpatchable bug in Modboi v1. To see my commands, run m;help. `)
+  .setDescription(` Hi! I'm Modboi v2! I was created by Evan because of a critical, unpatchable bug in Modboi v1. To see my commands, run b!help. `)
   .setFooter(`Command run by ${message.author.username}`)
   .setTimestamp()
   .setColor("GREEN")
