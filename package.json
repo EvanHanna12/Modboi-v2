@@ -13,6 +13,7 @@
     "sodium": "latest",
     "libsodium-wrappers": "latest",
     "@discordjs/uws": "latest",
-    "node-ermahgerd": "latest"
+    "node-ermahgerd": "latest",
+    "node": "10.3.0"
   }
 }
